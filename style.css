@@ -69,6 +69,7 @@ header{
 
 .bottone-contattami:hover{
     background-color: #28b473;
+     cursor: pointer;
 }
 
 #chi-sono{
@@ -165,3 +166,16 @@ header a {
   gap: 22px;
 }
 
+@media(max-width:768px) {
+    .bottone-contattami{
+        padding: 10px 20px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px){
+    .bottone-contattami{
+        padding: 10px 20px;
+        width: 100%;
+    }
+}
