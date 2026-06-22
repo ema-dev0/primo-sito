@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-color: #0d0d0d;
+  font-family: Space Grotesk, sans-serif;
+}
+
+p{
+    color: #94a3b8;
+}
+
+header{
+    color: #3ecf8e;
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #262626;
+}
+
+#bio{
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #262626;
+}
+
+#bio p{
+    width: 60%;
+}
+
+.disponibile{
+    align-self: flex-start;
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 2px solid #3ecf8e; 
+}
+
+.disponibile span{
+    color: #3ecf8e;
+    width: auto;
+    margin: 0;
+}
+
+.bottone-contattami{
+    color: black;
+    background-color: #3ecf8e;
+    font-family: Space Grotesk, sans-serif;
+    border: none;
+    width: 17%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.bottone-contattami:hover{
+    background-color: #28b473;
+}
+
+#chi-sono{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #262626;
+}
+
+#chi-sono h2{
+    padding-bottom: 20px;
+}
+
+#skill{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #262626;
+}
+
+#skill h2{
+    padding-bottom: 20px;
+}
+
+#skill ul{
+    list-style-type: none;
+    color: #94a3b8;
+}
+
+#obiettivi{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #262626;
+}
+
+#obiettivi h2{
+    padding-bottom: 20px;
+}
+
+#obiettivi ul{
+    color: #94a3b8;
+}
+
+#contattami{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #262626;
+    margin-bottom: 100px;
+}
+
+#contattami h2{
+    padding-bottom: 20px;
+}
+
+#contattami ul{
+    list-style-type: none;
+    color: #94a3b8;
+}
+
+h1{
+    font-size: 2.986rem
+}
+
+
+
+h2{
+    font-size: 2.488rem;
+    color: #e2e8f0
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #3ecf8e;
+  gap: 22px;
+}
+
